@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+textarea,
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.color[data-color="pink"] {
+  background: pink;
+}
+.color[data-color="purple"] {
+  background: purple;
+}
+.color[data-color="yellow"] {
+  background: yellow;
+}
+.color[data-color="blue"] {
+  background: lightblue;
+}
+.color[data-color="green"] {
+  background: lightgreen;
+}
+
+#addNote {
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.note {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

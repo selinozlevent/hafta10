@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotesApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>NotesApp</h1>
+      <input type="text" id="search" placeholder="Not ara..." />
+      <textarea id="noteInput" placeholder="Notunu yaz..."></textarea>
+
+      <div class="colors">
+        <button class="color" data-color="pink"></button>
+        <button class="color" data-color="purple"></button>
+        <button class="color" data-color="yellow"></button>
+        <button class="color" data-color="blue"></button>
+        <button class="color" data-color="green"></button>
+      </div>
+
+      <button id="addNote">ADD</button>
+
+      <div id="notesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
